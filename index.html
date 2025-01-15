@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kosan atau Penginapan Iran</title>
 <!-- CSS -->
 <link rel="stylesheet" href="css\styles.css"
 </head>
@@ -34,13 +34,14 @@
         <section>
             <!-- Title -->
             <header id="home-page">
-                <h1>Hi <span id="user-greeting">User</span>, Welcome to our website</h1>
-                <p>Lorem ipsum dolor sit amet adipiscing...</p>
+                <h1>Hi <span id="user-greeting">Kosaners</span>, Welcome to our website, residents of Iran.</h1>
+                <p>Kami menyediakan tempat tinggal yang nyaman dan terjangkau, dengan berbagai pilihan kamar sesuai kebutuhan Anda.</p>
             </header>
     
-            <div class="banner-image">
-    
-            </div>
+            <div class="banner-image banner-image-1"></div>
+            <div class="banner-image banner-image-2"></div>
+            <div class="banner-image banner-image-3"></div>
+
         </section>
         <!-- Our Profile -->
         <section>
@@ -67,7 +68,18 @@
             <header id="message-us">
                 <h1>Message Us</h1>
             </header>
-            <div class="content"></div>
+            <div class="content">
+                <form action="">
+                    <div>
+                        <label for="name-input">Name:</label>
+                        <input type="text" name="name" id="name-input" placeholder="Enter your name" required>
+                    </div>
+            
+                    <button type="button" id="submit-btn">Submit</button>
+                </form>
+            
+                <div id="result-form"></div>
+            </div>
         </section>
     </main>
     
@@ -77,6 +89,8 @@
     <footer>
         <p>&copy; 2025 - All rights reserved</p>
     </footer>
+
+    <script src="js\script.js"></script>
 
 </body>
 
